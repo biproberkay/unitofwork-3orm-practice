@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>BerkayIndustries.UnitOfWorkTemplateFor3ORM.Persistence</AssemblyName>
+    <RootNamespace>BerkayIndustries.UnitOfWorkTemplateFor3ORM.Persistence</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="NHibernate" Version="5.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BerkayIndustries.UnitOfWorkTemplateFor3ORM.Application\Application.csproj" />
+  </ItemGroup>
+
+</Project>
